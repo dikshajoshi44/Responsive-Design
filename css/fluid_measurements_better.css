@@ -1,0 +1,36 @@
+
+main {
+		width: 90%;
+		margin: 0 auto;
+	}
+.column {
+		width:30%;
+		display: inline-block;
+		float: left;
+		margin-left: 2%;
+  }
+
+html, body {
+	background-color: #ffffff;
+}
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 80%;
+	font-weight: normal;
+	color: #404040;
+}
+	
+h1 {
+	font-size: 200%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+  
