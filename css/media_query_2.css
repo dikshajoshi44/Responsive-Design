@@ -1,0 +1,20 @@
+
+h1{ 
+  width:100%;
+  background: pink; 
+}
+
+@media only screen and (min-width: 400px) {
+		h1{ 
+      background: yellow; 
+      width:50%;
+      color:white;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+		h1{ 
+      background: orange;
+      width:25%;
+    }
+}
