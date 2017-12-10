@@ -70,9 +70,12 @@ footer{
 }
 
 @media screen and (min-width:900px){
-      body{
+
+      		body{
+
                  background:#cfd8dc;
-           }
+
+           		}
 
            header, footer{
 			  background-color:#cfd8dc;
@@ -86,7 +89,7 @@ footer{
 			
 
 			#center img{
-				  border: 1px solid black;
+				 border: 1px solid black;
     			display:inline-block;
     			margin: 0.5rem;
     			width: 7.5rem;
@@ -94,16 +97,19 @@ footer{
         
 				}
       
-  footer{
-         display:block;
-          margin-left:20%;
-        }
-  h1::after { 
-    content: "(I guess...)";
-}
-  #center h2{
-    margin-top:2rem;
-  }
+			  footer{
+			         display:block;
+			          margin-left:20%;
+			        }
+
+			  h1::after { 
+			    content: "(I guess...)";
+					}
+
+			  #center h2{
+			    margin-top:2rem;
+			  }
+
 } 
 
 @media print {
