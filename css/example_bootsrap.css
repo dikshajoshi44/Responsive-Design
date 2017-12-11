@@ -1,0 +1,19 @@
+div{
+  font-size:140%;
+  
+}
+
+div[class^="visible"]{
+  border: 3px solid black;
+  margin-top:5%;
+}
+
+div[class$=lg]{
+  color:orange;
+}
+div[class$=md]{
+  color:grey;
+}
+div[class$=sm]{
+  color:black;
+}
